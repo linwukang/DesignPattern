@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BehavioralPatterns\StatePattern\" />
+    <Folder Include="BehavioralPatterns\TemplateMethodPattern\" />
+    <Folder Include="BehavioralPatterns\CommandPattern\" />
+    <Folder Include="BehavioralPatterns\IteratorPattern\" />
+    <Folder Include="BehavioralPatterns\StrategyPattern\" />
+    <Folder Include="BehavioralPatterns\ObserverPattern\" />
+    <Folder Include="CreationalPatterns\BuilderPattern\ComputerExample\" />
+    <Folder Include="CreationalPatterns\FactoryMethodPattern\ShapeExample\" />
+    <Folder Include="CreationalPatterns\SingletonPattern\" />
+    <Folder Include="StructuralPatterns\ProxyPattern\" />
+    <Folder Include="StructuralPatterns\FacadePattern\" />
+    <Folder Include="StructuralPatterns\DecoratorPattern\" />
+    <Folder Include="StructuralPatterns\CompositePattern\" />
+    <Folder Include="StructuralPatterns\BridgePattern\" />
+    <Folder Include="StructuralPatterns\AdapterPattern\" />
+  </ItemGroup>
+
+</Project>
