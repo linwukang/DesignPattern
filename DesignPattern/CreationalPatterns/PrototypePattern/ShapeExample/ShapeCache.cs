@@ -9,24 +9,24 @@ namespace DesignPattern.CreationalPatterns.PrototypePattern.ShapeExample;
 /// </summary>
 public class ShapeCache
 {
-    private static IDictionary<string, Shape> _shapeDictionary;
-
-    public static Shape? GetShape(String shapeId)
-    {
-        var cachedShape = _shapeDictionary[shapeId];
-        return cachedShape.Clone() as Shape;
-    }
+    private static readonly IDictionary<string, Shape> ShapeDictionary;
 
     /// <summary>
     /// 从数据库中获取形状
     /// </summary>
-    public static void LoadCache()
+    static ShapeCache()
     {
-        _shapeDictionary = new Dictionary<string, Shape>
+        ShapeDictionary = new Dictionary<string, Shape>
         {
             ["1"] = new Circle { Id = "1" },
-            ["2"] = new Square{ Id = "2" },
+            ["2"] = new Square { Id = "2" },
             ["3"] = new Rectangle { Id = "3" },
         };
+    }
+
+    public static Shape? GetShape(String shapeId)
+    {
+        var cachedShape = ShapeDictionary[shapeId];
+        return cachedShape.Clone() as Shape;
     }
 }

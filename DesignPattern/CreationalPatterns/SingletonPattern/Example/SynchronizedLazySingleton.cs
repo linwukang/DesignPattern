@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.CreationalPatterns.SingletonPattern;
+﻿namespace DesignPattern.CreationalPatterns.SingletonPattern.Example;
 // 创建型模式
 
 /// <summary>
@@ -14,9 +14,9 @@ public class SynchronizedLazySingleton
 
     public void ShowContent() => Console.WriteLine(_content);
 
-    private SynchronizedLazySingleton? _instance = null;
+    private static SynchronizedLazySingleton? _instance = null;
 
-    public SynchronizedLazySingleton Instance
+    public static SynchronizedLazySingleton Instance
     {
         get
         {

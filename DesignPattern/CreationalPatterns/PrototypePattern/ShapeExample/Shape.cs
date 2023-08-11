@@ -7,9 +7,9 @@
 /// </summary>
 public abstract class Shape : ICloneable
 {
-    public string Id { get; set; }
+    public string? Id { get; set; }
 
-    public string Type { get; protected set; }
+    public string? Type { get; protected set; }
 
     public abstract void Draw();
 

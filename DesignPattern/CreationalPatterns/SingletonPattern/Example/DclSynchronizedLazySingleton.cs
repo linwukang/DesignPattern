@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.CreationalPatterns.SingletonPattern;
+﻿namespace DesignPattern.CreationalPatterns.SingletonPattern.Example;
 // 创建型模式
 
 /// <summary>
@@ -14,9 +14,9 @@ public class DclSynchronizedLazySingleton
 
     public void ShowContent() => Console.WriteLine(_content);
 
-    private DclSynchronizedLazySingleton? _instance = null;
+    private static DclSynchronizedLazySingleton? _instance = null;
 
-    public DclSynchronizedLazySingleton Instance
+    public static DclSynchronizedLazySingleton Instance
     {
         get
         {
@@ -28,7 +28,7 @@ public class DclSynchronizedLazySingleton
                 {
                     if (_instance is null)
                     {
-                        _instance = new DclSynchronizedLazySingleton("懒加载单例");
+                        _instance = new DclSynchronizedLazySingleton("双重校验锁懒加载单例");
                     }
                 }
             }

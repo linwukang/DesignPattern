@@ -16,13 +16,15 @@
     <Folder Include="BehavioralPatterns\ObserverPattern\" />
     <Folder Include="CreationalPatterns\BuilderPattern\ComputerExample\" />
     <Folder Include="CreationalPatterns\FactoryMethodPattern\ShapeExample\" />
-    <Folder Include="CreationalPatterns\SingletonPattern\" />
-    <Folder Include="StructuralPatterns\ProxyPattern\" />
-    <Folder Include="StructuralPatterns\FacadePattern\" />
-    <Folder Include="StructuralPatterns\DecoratorPattern\" />
-    <Folder Include="StructuralPatterns\CompositePattern\" />
-    <Folder Include="StructuralPatterns\BridgePattern\" />
-    <Folder Include="StructuralPatterns\AdapterPattern\" />
+    <Folder Include="StructuralPatterns\BridgePattern\ShapeExample\" />
+    <Folder Include="StructuralPatterns\CompositePattern\EmployeeExample\" />
+    <Folder Include="StructuralPatterns\DecoratorPattern\ShapeExample\" />
+    <Folder Include="StructuralPatterns\ProxyPattern\ImageExample\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@
 /// </summary>
 public class MacBookComputer : Computer
 {
-    public override string Os
+    public override string? Os
     {
         get => "Mac OS X 12";
         set { }

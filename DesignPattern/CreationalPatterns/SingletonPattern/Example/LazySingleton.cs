@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.CreationalPatterns.SingletonPattern;
+﻿namespace DesignPattern.CreationalPatterns.SingletonPattern.Example;
 // 创建型模式
 
 /// <summary>
@@ -14,14 +14,14 @@ public class LazySingleton
 
     public void ShowContent() => Console.WriteLine(_content);
 
-    private LazySingleton? _instance = null;
+    private static LazySingleton? _instance = null;
 
     /// <summary>
     /// 通过此静态属性可以获取类的实例
     /// 在第一次调用时创建实例对象
     /// 该属性是线程不安全的
     /// </summary>
-    public LazySingleton Instance
+    public static LazySingleton Instance
     {
         get
         {

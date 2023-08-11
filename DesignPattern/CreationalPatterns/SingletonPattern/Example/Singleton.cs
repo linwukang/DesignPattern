@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.CreationalPatterns.SingletonPattern;
+﻿namespace DesignPattern.CreationalPatterns.SingletonPattern.Example;
 // 创建型模式
 
 /// <summary>
