@@ -14,7 +14,7 @@ Structural Patterns（结构型模式）：结构型模式关注对象之间的�
     Composite Pattern（组合模式）
     Decorator Pattern（装饰器模式）
     Facade Pattern（外观模式）
-    Filter Pattern（过滤器模式）
+    Filter Pattern（过滤器模式）/ Criteria Pattern（标准模式）
     Proxy Pattern（代理模式）
 
 

@@ -19,10 +19,12 @@
     <Folder Include="StructuralPatterns\BridgePattern\ShapeExample\" />
     <Folder Include="StructuralPatterns\CompositePattern\EmployeeExample\" />
     <Folder Include="StructuralPatterns\DecoratorPattern\ShapeExample\" />
-    <Folder Include="StructuralPatterns\ProxyPattern\ImageExample\" />
+    <Folder Include="StructuralPatterns\ProxyPattern\StaticProxy\ImageExample\" />
+    <Folder Include="StructuralPatterns\FilterPattern\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="5.1.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.0" />
     <PackageReference Include="NUnit" Version="3.13.3" />
   </ItemGroup>

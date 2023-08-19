@@ -1,15 +1,15 @@
-﻿using DesignPattern.StructuralPatterns.ProxyPattern.ImageExample;
+﻿using DesignPattern.StructuralPatterns.ProxyPattern.StaticProxy.ImageExample;
 using NUnit.Framework;
 
 namespace DesignPattern.StructuralPatterns.ProxyPattern;
 // 结构型模式
 
 /// <summary>
-/// 代理模式
-/// 测试类
+/// 静态代理模式
+/// 静态代理测试类
 /// </summary>
 [TestFixture]
-public class ProxyPatternTest
+public class StaticProxyPatternTest
 {
     [Test]
     public void TestImageExample()
