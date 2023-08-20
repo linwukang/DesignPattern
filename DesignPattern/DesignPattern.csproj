@@ -14,13 +14,17 @@
     <Folder Include="BehavioralPatterns\IteratorPattern\" />
     <Folder Include="BehavioralPatterns\StrategyPattern\" />
     <Folder Include="BehavioralPatterns\ObserverPattern\" />
+    <Folder Include="BehavioralPatterns\InterpreterPattern\" />
+    <Folder Include="BehavioralPatterns\MediatorPattern\" />
+    <Folder Include="BehavioralPatterns\MementoPattern\" />
+    <Folder Include="BehavioralPatterns\NullObjectPattern\" />
     <Folder Include="CreationalPatterns\BuilderPattern\ComputerExample\" />
     <Folder Include="CreationalPatterns\FactoryMethodPattern\ShapeExample\" />
     <Folder Include="StructuralPatterns\BridgePattern\ShapeExample\" />
     <Folder Include="StructuralPatterns\CompositePattern\EmployeeExample\" />
     <Folder Include="StructuralPatterns\DecoratorPattern\ShapeExample\" />
     <Folder Include="StructuralPatterns\ProxyPattern\StaticProxy\ImageExample\" />
-    <Folder Include="StructuralPatterns\FilterPattern\" />
+    <Folder Include="StructuralPatterns\FlyweightPattern\" />
   </ItemGroup>
 
   <ItemGroup>

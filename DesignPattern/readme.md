@@ -15,14 +15,19 @@ Structural Patterns（结构型模式）：结构型模式关注对象之间的�
     Decorator Pattern（装饰器模式）
     Facade Pattern（外观模式）
     Filter Pattern（过滤器模式）/ Criteria Pattern（标准模式）
+    Flyweight Pattern（享元模式）
     Proxy Pattern（代理模式）
 
 
 Behavioral Patterns（行为型模式）：行为型模式关注对象之间的通信和职责分配。它们涉及到算法、任务分配和职责划分等问题。常见的行为型模式包括：
 
-    Observer Pattern（观察者模式）
-    Strategy Pattern（策略模式）
-    Iterator Pattern（迭代器模式）
     Command Pattern（命令模式）
-    Template Method Pattern（模板方法模式）
+    Interpreter Pattern（解释器模式）
+    Iterator Pattern（迭代器模式）
+    Mediator Pattern（中介者模式）
+    Memento Pattern（备忘录模式）
+    Null Object Pattern（空对象模式）
+    Observer Pattern（观察者模式）
     State Pattern（状态模式）
+    Strategy Pattern（策略模式）
+    Template Method Pattern（模板方法模式）
